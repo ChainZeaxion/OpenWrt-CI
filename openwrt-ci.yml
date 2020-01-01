@@ -141,15 +141,67 @@ jobs:
           # 常用LuCI插件选择:
            cat >> .config <<EOF
            CONFIG_PACKAGE_luci-app-adbyby-plus=y
-           CONFIG_PACKAGE_luci-app-aria2=y
-           CONFIG_PACKAGE_luci-app-baidupcs-web=y
+           CONFIG_PACKAGE_luci-app-acme=y
+           CONFIG_PACKAGE_luci-app-accesscontrol=y
+           CONFIG_PACKAGE_luci-app-advanced-reboot=y
+           CONFIG_PACKAGE_luci-app-asterisk=y
+           CONFIG_PACKAGE_luci-app-arpbind=y
            CONFIG_PACKAGE_luci-app-docker=y
            CONFIG_PACKAGE_luci-app-frpc=y
-           CONFIG_PACKAGE_luci-app-kodexplorer=y
-          # CONFIG_PACKAGE_luci-app-minidlna=y
            CONFIG_PACKAGE_luci-app-openvpn=y
            CONFIG_PACKAGE_luci-app-openvpn-server=y
-          # CONFIG_PACKAGE_luci-app-qbittorrent=y
+           CONFIG_PACKAGE_luci-app-bird1-ipv4=y
+           CONFIG_PACKAGE_luci-app-bird1-ipv6=y
+           CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y
+           CONFIG_PACKAGE_luci-app-dnsforwarde=y
+           CONFIG_PACKAGE_luci-app-dnsforwarder=y
+           CONFIG_PACKAGE_luci-app-dnspod=y
+           CONFIG_PACKAGE_luci-app-e2guardian=y
+           CONFIG_PACKAGE_luci-app-filetransfer=y
+           CONFIG_PACKAGE_luci-app-firewall=y
+           CONFIG_PACKAGE_luci-app-flowoffload=y
+           CONFIG_PACKAGE_luci-app-frpc=y
+           CONFIG_PACKAGE_luci-app-guest-wifi=y
+           CONFIG_PACKAGE_luci-app-haproxy-tcp=y
+           CONFIG_PACKAGE_luci-app-hnet=y
+           CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
+           CONFIG_PACKAGE_luci-app-lxc=y
+           CONFIG_PACKAGE_luci-app-meshwizard=y
+           CONFIG_PACKAGE_luci-app-mjpg-streamer=y
+           CONFIG_PACKAGE_luci-app-mwan3=y
+           CONFIG_PACKAGE_luci-app-mwan3helper=y
+           CONFIG_PACKAGE_luci-app-n2n_v2=y
+           CONFIG_PACKAGE_luci-app-netdata=y
+           CONFIG_PACKAGE_luci-app-nft-qos=y
+           CONFIG_PACKAGE_luci-app-nlbwmon=y
+           CONFIG_PACKAGE_luci-app-noddos=y
+           CONFIG_PACKAGE_luci-app-nps=y
+           CONFIG_PACKAGE_luci-app-ntpc=y
+           CONFIG_PACKAGE_luci-app-ocserv
+           CONFIG_PACKAGE_luci-app-olsr=y
+           CONFIG_PACKAGE_luci-app-olsr-services=y
+           CONFIG_PACKAGE_luci-app-olsr-viz=y
+           CONFIG_PACKAGE_luci-app-openvpn=y
+           CONFIG_PACKAGE_luci-app-openvpn-serve=y
+           CONFIG_PACKAGE_luci-app-p910nd=y
+           CONFIG_PACKAGE_luci-app-pagekitec=y
+           CONFIG_PACKAGE_luci-app-polipo=y
+           CONFIG_PACKAGE_luci-app-pppoe-relay=y
+           CONFIG_PACKAGE_luci-app-pptp-server=y
+           CONFIG_PACKAGE_luci-app-privoxy=y
+           CONFIG_PACKAGE_luci-app-qos=y
+           CONFIG_PACKAGE_luci-app-radicale=y
+           CONFIG_PACKAGE_luci-app-ramfree=y
+           CONFIG_PACKAGE_luci-app-rp-pppoe-server=y
+           CONFIG_PACKAGE_luci-app-samba=y
+           CONFIG_PACKAGE_luci-app-samba4=y
+           CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
+           CONFIG_PACKAGE_luci-app-shairplay=y
+           CONFIG_PACKAGE_luci-app-siitwizard=y
+           CONFIG_PACKAGE_luci-app-smartdns=y
+           CONFIG_PACKAGE_luci-app-softethervpn=y
+           CONFIG_PACKAGE_luci-app-splash=y
+           CONFIG_PACKAGE_luci-app-sqm=y
            CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
            CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
            CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
@@ -157,7 +209,15 @@ jobs:
            CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
            CONFIG_PACKAGE_luci-app-ttyd=y
            CONFIG_PACKAGE_luci-app-v2ray-server=y
-           CONFIG_PACKAGE_luci-app-verysync=y
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
+           CONFIG_PACKAGE_
            CONFIG_PACKAGE_luci-app-webadmin=y
            CONFIG_PACKAGE_luci-app-wireguard=y
            CONFIG_PACKAGE_luci-app-wrtbwmon=y
